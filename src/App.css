@@ -45,11 +45,33 @@
     background-color: #53D8FB;
 }
 
-.creator {
+.container-credits {
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     font-size: 1.1em;
-    text-align: center;
-    color: white;
+}
+
+.container-credits a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.container-credits a:hover {
+    color: #53D8FB;
+    transform: scale(1.05);
+}
+
+.credits {
+    font-size: 1.1em;
+}
+
+.credits-github {
+    font-size: 1.5em;
 }
 
 .drum-title {
@@ -83,11 +105,9 @@
         transform: translate(2px, 2px);
     }
 
-    .creator {
-        margin-top: 10px;
+    .container-credits {
         font-size: 0.8em;
         text-align: center;
-        color: white;
     }
 
     .drum-title {
